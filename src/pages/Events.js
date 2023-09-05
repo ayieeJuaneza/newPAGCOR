@@ -20,7 +20,7 @@ function Events() {
                 <Col lg={10}>
                     <Row className='px-5 pb-5 eventsFonts'>
                     <h1 className='border-bottom px-5 pb-5 pt-4'>EVENTS<br/><span>*Schedules may change without prior notice.</span></h1>
-                        <Col sm={1} md={6} className='texts px-5 pt-5'>
+                        <Col md={6} className='texts px-5 pt-5'>
                             <div>
                                <h5><span><img src={iconCalendar} className='pe-2' /></span>August 17, 2023</h5>
                                <h4>POINTS TO PLAY SUPER6 TOURNAMENT</h4>
@@ -62,7 +62,7 @@ function Events() {
                                <p>Venue: Oriental Pavillion<br/><span><small>Table Games Tournament</small></span></p>
                             </div>
                         </Col>
-                        <Col sm={1} md={6} className='texts px-5 pt-5'>
+                        <Col md={6} className='texts px-5 pt-5'>
                             <div>
                                <h5><span><img src={iconCalendar} className='pe-2' /></span>August 19, 2023</h5>
                                <h4>GABBY CONCEPCION LIVE!</h4>

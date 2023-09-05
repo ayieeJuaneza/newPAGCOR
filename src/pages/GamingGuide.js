@@ -30,7 +30,7 @@ function GamingGuide() {
                 <div className='p-5 gamingGuidesFonts'>
                 <h1 className='px-5 pb-5 pt-4'>Gaming Guide</h1>
                     <Row className='border-bottom'>
-                        <Col sm={1} md={4} className='pt-4'>
+                        <Col md={4} className='pt-4'>
                             <div className='mb-3 text-center'>
                                 <img src={Baccarat} alt="" />
                                 <h5>Baccarat<br/><span>How to Play</span></h5>
@@ -44,7 +44,7 @@ function GamingGuide() {
                                 <h5>Big and Small<br/><span>How to Play</span></h5>
                             </div>
                         </Col>
-                        <Col sm={1} md={4} className='pt-4'>
+                        <Col md={4} className='pt-4'>
                             <div className='mb-3 text-center '>
                                 <img src={BonusBaccarat} alt="" />
                                 <h5>Bonus Baccarat<br/><span>How to Play</span></h5>
@@ -58,7 +58,7 @@ function GamingGuide() {
                                 <h5>Pontoon<br/><span>How to Play</span></h5>
                             </div>
                         </Col>
-                        <Col sm={1} md={4} className='pt-4'>
+                        <Col md={4} className='pt-4'>
                             <div className='mb-3 text-center '>
                                 <img src={NoCommisionBaccarat} alt="" />
                                 <h5>No Commission Baccarat<br/><span>How to Play</span></h5>

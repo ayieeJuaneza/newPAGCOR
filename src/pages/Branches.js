@@ -19,7 +19,7 @@ function Branches() {
                 <Col lg={10}>
                     <Row className='px-5 pb-5 branchesFonts'>
                     <h1 className='px-5 pb-5 pt-4'>BRANCHES</h1>
-                        <Col className='texts px-5' sm={1} md={4}>
+                        <Col className='texts px-5' md={4}>
                             <div>
                                 <h5>Angeles</h5>
                                 <p>McArthur Highway, Balibago, Angeles City, Pampanga</p>
@@ -33,7 +33,7 @@ function Branches() {
                                 <p>New Coast Hotel Manila, 1558 MH Del Pilar cor. Pedro Gil St., Malate, Manila</p>
                             </div>
                         </Col>
-                        <Col className='texts px-5' sm={1} md={4}>
+                        <Col className='texts px-5' md={4}>
                             <div>
                                 <h5>Bacolod</h5>
                                 <p>L'Fisher Hotel, 14th cor. Lacson St., Bacolod City</p>
@@ -47,7 +47,7 @@ function Branches() {
                                 <p>Gold City Square, Ronquillo St., Sta. Cruz, Manila</p>
                             </div>
                         </Col>
-                        <Col className='texts px-5' sm={1} md={4}>
+                        <Col className='texts px-5' md={4}>
                             <div>
                                 <h5>Cebu</h5>
                                 <p>Waterfront Hotel & Casino, Salinas Drive, Lahug, Cebu City</p>
@@ -62,7 +62,7 @@ function Branches() {
                             </div>
                         </Col>
                         <h1 className='px-5 pb-5 pt-4 mt-5'>SATELLITE CASINOS</h1>
-                        <Col className='texts px-5' sm={1} md={4}>
+                        <Col className='texts px-5' md={4}>
                             <div>
                                 <h5>Adriatico</h5>
                                 <p>M. Adriatico cor. Gen. Malvar Sts., Malate, Manila</p>
@@ -112,7 +112,7 @@ function Branches() {
                                 <p>Subic Bay Venezia Hotel, Canal Rd., Subic Bay Freeport Zone, Olongapo City</p>
                             </div>
                         </Col>
-                        <Col className='texts px-5' sm={1} md={4}>
+                        <Col className='texts px-5' md={4}>
                             <div>
                                 <h5>Apo View</h5>
                                 <p>The Apo View Hotel, J. Camus Ext. Poblacion Dist.,Davao City</p>
@@ -158,7 +158,7 @@ function Branches() {
                                 <p>Eurotel Building, Alabang-Zapote Rd., Las Piñas City</p>
                             </div>
                         </Col>
-                        <Col className='texts px-5' sm={1} md={4}>
+                        <Col className='texts px-5' md={4}>
                             <div>
                                 <h5>Binondo</h5>
                                 <p>Chinatown Lai-Lai Hotel, 801 Ongpin cor. S.B. Padilla Sts., Binondo, Manila</p>

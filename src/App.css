@@ -52,17 +52,17 @@ body{
 
 /* -- GLOBAL -- */
 
-.global-head{
-  text-align: center;
+/* .global-head{
+  text-align: left !important;
   font-weight: 500;
   color: white;
-}
+} */
 
 @media (max-width:991px){
   /* global */
-  .marg-Y-991{
+  /* .marg-Y-991{
     margin: 1rem 0;
-  }
+  } */
 
   /* header */
   .padding-header-text{
@@ -192,19 +192,6 @@ body{
   /* margin: 0 !important; */
 }
 
-/* --LISTBAR-- */
-
-.item{
-  background: #203354;
-  color: #FFF;
-  font-family: 'Inter', sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  border-radius: 2px;
-  border-color: #203354 !important;
-}
-
 /* -- BRANCHES PAGE -- */
 
 .cont-branches{
@@ -241,35 +228,149 @@ body{
 
 .sticky-list{
   position: sticky;
-  top: 100px;
+  top: 75px;
   margin-top: 50px !important;
   margin-left: 50px !important;
   z-index: 1;
 }
+@media (max-width:1580px){
+  .sticky-list{
+    margin-top: 30px !important;
+    margin-left: 30px !important;;
+  }
+}
 
-@media (max-width:360px){
+@media (max-width:1480px){
+  .sticky-list{
+    margin-top: 20px !important;
+    margin-left: 20px !important;
+  }
+}
+
+@media (max-width:1380px){
+  .sticky-list{
+    margin-top: 20px !important;
+    margin-left: 20px !important;;
+  }
+}
+
+@media (max-width:1220px){
+  .sticky-list{
+   margin: 0 !important;
+  }
+}
+
+
+@media (max-width:767px){
   .branchesFonts .texts{
     padding: 0 !important;
   }
+  .eventsFonts .texts{
+    padding: 0 !important;
+  }
+  .rewardsFonts .CardText{
+    padding: 0 !important;
+  }
+  .rewardsFonts h1{
+    padding: 0 !important;
+    margin-top: 50px;
+  }
+  .rewardsFonts h5{
+    padding: 0 !important;
+  }
+  .rewardsFonts .rewards-cont{
+    padding: 0 !important;
+  }
+  .rewardsFonts .CardsStyle{
+    margin-top: 50px !important;
+  }
+  .gamingGuidesFonts{
+    text-align: center;
+  }
 }
 
-@media (max-width:412px){
+
+
+@media (max-width:577px){
+  /* header */
+  .padding-header-text{
+    text-align: center;
+    padding: 2rem !important;
+  }
+  .header-text-format h1{
+    text-align: center !important;
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+
+@media (max-width:575px){
   .branchesFonts .texts{
     padding: 0 !important;
   }
-}
-
-@media (max-width: 360px){
+  .eventsFonts .texts{
+    padding: 0 !important;
+  }
   .sticky-list{
     margin: 0 !important;
   }
+  .rewardsFonts .CardText{
+    padding: 0 !important;
+  }
+  .rewardsFonts h1{
+    padding: 0 !important;
+    margin-top: 50px;
+  }
+  .rewardsFonts h5{
+    padding: 0 !important;
+  }
+  .rewardsFonts .rewards-cont{
+    padding: 0 !important;
+  }
+  .rewardsFonts .CardsStyle{
+    margin-top: 50px !important;
+  }
+  .gamingGuidesFonts{
+    text-align: center;
+  }
 }
 
-@media (max-width: 412px){
+
+@media (max-width:300px){
+  .branchesFonts .texts{
+    padding: 0 !important;
+  }
+  .eventsFonts .texts{
+    padding: 0 !important;
+  }
   .sticky-list{
     margin: 0 !important;
   }
+  .rewardsFonts .CardText{
+    padding: 0 !important;
+    margin-top: 50px;
+  }
+  .rewardsFonts h1{
+    padding: 0 !important;
+    margin-top: 50px;
+  }
+  .rewardsFonts h5{
+    padding: 0 !important;
+  }
+  .rewardsFonts .rewards-cont{
+    padding: 0 !important;
+  }
+  .rewardsFonts .CardsStyle{
+    margin-top: 50px !important;
+  }
+  .gamingGuidesFonts{
+    text-align: center;
+  }
 }
+
 
 
 /* -- EVENTS PAGE -- */
@@ -330,30 +431,6 @@ body{
   font-weight: 400;
 }
 
-@media (max-width:360px){
-  .eventsFonts .texts{
-    padding: 0 !important;
-  }
-}
-
-@media (max-width:412px){
-  .eventsFonts .texts{
-    padding: 0 !important;
-  }
-}
-
-@media (max-width: 360px){
-  .sticky-list{
-    margin: 0 !important;
-  }
-}
-
-@media (max-width: 412px){
-  .sticky-list{
-    margin: 0 !important;
-  }
-}
-
 /* --REWARDS PAGE-- */
 
 .cont-rewards{
@@ -401,45 +478,6 @@ body{
   align-items: center;
 }
 
-
-@media (max-width:360px){
-  .rewardsFonts .CardText{
-    padding: 0 !important;
-    margin-top: 50px;
-  }
-  .rewardsFonts h1{
-    padding: 0 !important;
-    margin-top: 50px;
-  }
-  .rewardsFonts h5{
-    padding: 0 !important;
-  }
-  .rewardsFonts .rewards-cont{
-    padding: 0 !important;
-  }
-  .rewardsFonts .CardsStyle{
-    margin-top: 50px !important;
-  }
-}
-
-@media (max-width:412px){
-  .rewardsFonts .CardText{
-    padding: 0 !important;
-  }
-}
-
-@media (max-width: 360px){
-  .sticky-list{
-    margin: 0 !important;
-  }
-}
-
-@media (max-width: 412px){
-  .sticky-list{
-    margin: 0 !important;
-  }
-}
-
 /* --GAMING GUIDE-- */
 
 .cont-gamingGuide{
@@ -473,12 +511,6 @@ body{
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-}
-
-@media (max-width:360px){
-  .gamingGuidesFonts{
-    text-align: center;
-  }
 }
 
 .gamingGuidesFonts h2{
@@ -555,12 +587,6 @@ body{
   font-weight: 500;
 }
 
-@media (max-width:360px){
-  .testing546{
-    padding: 0 !important;
-  }
-}
-
 /* -- HEADER COMPONENT -- */
 
 /* .img-bg{
@@ -578,7 +604,7 @@ body{
   flex-direction: column;
 }
 .header-text-format h1{
-  text-align: left !important;
+  /* text-align: left !important; */
   color: #FFF;
   font-size: 36px;
   font-style: normal;
@@ -596,18 +622,56 @@ body{
   padding: 0 0 0 4rem !important ;
 }
 
-@media (max-width:577px){
-  /* header */
-  .padding-header-text{
-    text-align: center;
-    padding: 2rem !important;
-  }
-  .header-text-format h1{
-    text-align: center !important;
-    color: #FFF;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
+/* -- FOOTER -- */
+
+.footer-background{
+  background: #D1D1D1DB;
+  color: #203354 !important;
+}
+.footer-background ul{
+  list-style: none  !important;
+  padding: 0 !important;
+  /* margin: 0 !important; */
+}
+.footer-background a{
+  text-decoration: none!important;
+  color: #203354 !important;
+}
+.social-links{
+  font-size: 2rem !important;
+  margin: 0 .5rem;
+  color: #203354 !important;
+}
+
+/* --LISTBAR-- */
+
+.item{
+  background: #203354;
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 2px;
+  border-color: #203354 !important;
+}
+
+.ListHref{
+  text-decoration: none;
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 2px;
+}
+
+/* -- ABOUT US -- */
+
+.cont-aboutUs{
+  background: url("../src/assets/BG/background.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
 }

@@ -19,7 +19,7 @@ function AppNavBar() {
 	    <Navbar.Collapse id="basic-navbar-nav">
 
 	       	<Nav className="ms-auto">
-	           <Nav.Link as={ NavLink } to="" end id="text" className='barText rounded me-5 px-4'>Home</Nav.Link>
+	           <Nav.Link as={ NavLink } to="/" end id="text" className='barText rounded me-5 px-4'>Home</Nav.Link>
 	           <Nav.Link as={ NavLink } to="" end id="text" className='barText me-5'>Games</Nav.Link>
 			   <Nav.Link as={ NavLink } to="" end id="text" className='barText me-5'>About Us</Nav.Link>
 	           <Nav.Link as={ NavLink } to="" end id="text" className='barText me-5'>Responsible Gaming</Nav.Link>

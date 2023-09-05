@@ -3,6 +3,7 @@ import AppNavBar from '../components/AppNavBar'
 import ListBar from '../components/ListBar'
 import Headers from '../components/Headers'
 import { Row, Col } from "react-bootstrap"
+import Footer from '../components/Footer'
 
 function ResponsibleGaming() {
   return (
@@ -117,6 +118,7 @@ function ResponsibleGaming() {
                     </div>
                 </div>
             </Col>
+            <Footer/>
         </Row>
     </div>
   )

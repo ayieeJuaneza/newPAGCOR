@@ -12,49 +12,49 @@ import MobBanners3 from "../assets/banners/rtg-mob.png";
 
 function Headers() {
 
-    const testBannersArray =[Banners1,Banners2,Banners3]
-    const testBannersMobArray =[MobBanners1,MobBanners2,MobBanners3]
+    // const testBannersArray =[Banners1,Banners2,Banners3]
+    // const testBannersMobArray =[MobBanners1,MobBanners2,MobBanners3]
 
-    var headerSettings = {
-        autoplay: true,
-        dots: false,
-        infinite: true,
-        speed: 3000,
-        autoplaySpeed: 1000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 3,
-            }
-          },
-          {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 3,
-                prevArrow:'.arr_back',
-                nextArrow:'.arr_next',
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 2
-            }
-          }
+    // var headerSettings = {
+    //     autoplay: true,
+    //     dots: false,
+    //     infinite: true,
+    //     speed: 3000,
+    //     autoplaySpeed: 2000,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //     responsive: [
+    //       {
+    //         breakpoint: 1024,
+    //         settings: {
+    //             slidesToShow: 1,
+    //             slidesToScroll: 3,
+    //         }
+    //       },
+    //       {
+    //         breakpoint: 600,
+    //         settings: {
+    //             slidesToShow: 2,
+    //             slidesToScroll: 3,
+    //             prevArrow:'.arr_back',
+    //             nextArrow:'.arr_next',
+    //         }
+    //       },
+    //       {
+    //         breakpoint: 480,
+    //         settings: {
+    //             slidesToShow: 1,
+    //             slidesToScroll: 2
+    //         }
+    //       }
     
-        ]
-      };
+    //     ]
+    //   };
   return (
     <div className='img-bg'>
-      {/* <div className='mb-5 carousel-header-bg header-text-format py-5'>
+      <div className='mb-5 carousel-header-bg header-text-format py-5'>
         <Row>
-          <Col lg={4} sm={12} className='padding-header-text header-text-format'>
+          <Col lg={4} sm={12} className='padding-header-text'>
             <h1 className='global-head'>
               Play and Have Fun
             </h1>
@@ -63,8 +63,8 @@ function Headers() {
             </p>
           </Col>
         </Row>
-      </div> */}
-      <div className='mb-5 carousel-header-bg'>
+      </div>
+      {/* <div className='mb-5 carousel-header-bg'>
             <Slider {...headerSettings} className="web-banner">
                     {testBannersArray.map((latest) => (
                     <div className=''>
@@ -72,14 +72,14 @@ function Headers() {
                     </div>
                     ))}
             </Slider>
-            {/* <Slider {...headerSettings} className="mob-banner">
+            <Slider {...headerSettings} className="mob-banner">
                     {testBannersMobArray.map((Mob) => (
                     <div className=''>
                       <img src={Mob} className="w-100" alt="" />
                     </div>
                     ))}
-            </Slider> */}
-      </div>
+            </Slider>
+      </div> */}
     </div>
   )
 }
