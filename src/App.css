@@ -1,0 +1,613 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden !important;
+  background: black !important;
+  font-family: 'Inter', sans-serif !important;
+}
+#Nav-BG{
+  background: black !important;
+}
+.fontColor{
+  color: #1E3699 !important;
+  margin-left: auto;
+}
+
+.barText{
+  color: #FFFF !important;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.barBorderClr{
+  background-color: #BE2227 !important;
+  color: #FFF !important;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.header-text-format{
+  text-align: start;
+  display: flex;
+  align-items: center;
+  /* flex-direction: column; */
+  
+}
+.carousel-header-bg{
+  background: linear-gradient(360deg, #BE2227 0.09%, #1E3699 76.65%);
+}
+
+.test{
+  display: flex;
+  justify-content: end;
+}
+
+/* -- GLOBAL -- */
+
+.global-head{
+  text-align: center;
+  font-weight: 500;
+  color: white;
+}
+
+@media (max-width:991px){
+  /* global */
+  .marg-Y-991{
+    margin: 1rem 0;
+  }
+
+  /* header */
+  .padding-header-text{
+    text-align: center;
+    padding: 2rem !important;
+  }
+  .header-text-format h1{
+    text-align: center !important;
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+
+.header-text-format h3{
+  color: #FFF;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.header-text-format p {
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+.section-one {
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ text-align: center;
+ color: white;
+}
+.section-one h1{
+  font-weight: 600;
+}
+.section-two {
+  background: linear-gradient(270deg, #BE2227 0.09%, #1E3699 76.65%);
+  border-radius: 3rem;
+  padding: 1rem;
+}
+
+.section-two h1{
+  color: white !important;
+  text-align: center;
+}
+
+.number{
+  display: flex;
+  justify-content: space-evenly;
+}
+.number-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center;
+  margin: 1rem;
+}
+.number-info h1{
+  text-transform: uppercase;
+  text-align: center;
+  font-style: normal;
+  font-weight: 800;
+  color: white !important;
+}
+.number-info p{
+  text-transform: uppercase;
+  text-align: center;
+  font-style: normal;
+  color: white !important;
+}
+
+
+/* Login */
+.login-label{
+  font-weight: 900;
+  font-size: 3rem;
+}
+.login-bg{
+  width: 100%;
+  height: 100vh;
+  background-size: 100% 100%;
+  background-image: linear-gradient(#bb3136, #1E3699);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-float-card{
+  width: 90%;
+}
+.login-card{
+  height: 90% !important;
+  /* border: 2px solid black; */
+  box-shadow: .1rem .1rem 1rem black !important;
+  border-radius: 1rem;
+  background: white;
+}
+.login_image{
+  background-image: url("../src/assets/login_image.jpg") !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  object-fit: contain;
+  height: 100% !important;
+  width: 100% !important;
+  border-radius:  0rem 1rem 1rem 0rem;
+}
+
+@media (min-width:768px){
+  .barBorderClr{
+    margin: 0 !important;
+  }
+}
+
+/* Footer */
+.footer-background{
+  background: #D1D1D1DB;
+}
+.footer-background ul{
+  list-style: none  !important;
+  padding: 0 !important;
+  /* margin: 0 !important; */
+}
+
+/* --LISTBAR-- */
+
+.item{
+  background: #203354;
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 2px;
+  border-color: #203354 !important;
+}
+
+/* -- BRANCHES PAGE -- */
+
+.cont-branches{
+  background: url("../src/assets/BG/background.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.branchesFonts h5{
+  color: #FFA800;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.branchesFonts p {
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.branchesFonts h1 {
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.sticky-list{
+  position: sticky;
+  top: 100px;
+  margin-top: 50px !important;
+  margin-left: 50px !important;
+  z-index: 1;
+}
+
+@media (max-width:360px){
+  .branchesFonts .texts{
+    padding: 0 !important;
+  }
+}
+
+@media (max-width:412px){
+  .branchesFonts .texts{
+    padding: 0 !important;
+  }
+}
+
+@media (max-width: 360px){
+  .sticky-list{
+    margin: 0 !important;
+  }
+}
+
+@media (max-width: 412px){
+  .sticky-list{
+    margin: 0 !important;
+  }
+}
+
+
+/* -- EVENTS PAGE -- */
+
+.cont-events{
+  background: url("../src/assets/BG/background3.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.eventsFonts span{
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.eventsFonts h5{
+  color: #FFA800;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.eventsFonts p {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.eventsFonts h1 {
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.eventsFonts h4{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;;
+}
+
+.eventsFonts small {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@media (max-width:360px){
+  .eventsFonts .texts{
+    padding: 0 !important;
+  }
+}
+
+@media (max-width:412px){
+  .eventsFonts .texts{
+    padding: 0 !important;
+  }
+}
+
+@media (max-width: 360px){
+  .sticky-list{
+    margin: 0 !important;
+  }
+}
+
+@media (max-width: 412px){
+  .sticky-list{
+    margin: 0 !important;
+  }
+}
+
+/* --REWARDS PAGE-- */
+
+.cont-rewards{
+  background: url("../src/assets/BG/background3.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rewardsFonts h5{
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.rewardsFonts h4{
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.rewardsFonts h1{
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.rewardsFonts{
+  align-items: center;
+}
+
+.CardsStyle{
+  display: flex;
+  justify-content: center !important;
+}
+
+.CardText{
+  align-items: center;
+}
+
+
+@media (max-width:360px){
+  .rewardsFonts .CardText{
+    padding: 0 !important;
+    margin-top: 50px;
+  }
+  .rewardsFonts h1{
+    padding: 0 !important;
+    margin-top: 50px;
+  }
+  .rewardsFonts h5{
+    padding: 0 !important;
+  }
+  .rewardsFonts .rewards-cont{
+    padding: 0 !important;
+  }
+  .rewardsFonts .CardsStyle{
+    margin-top: 50px !important;
+  }
+}
+
+@media (max-width:412px){
+  .rewardsFonts .CardText{
+    padding: 0 !important;
+  }
+}
+
+@media (max-width: 360px){
+  .sticky-list{
+    margin: 0 !important;
+  }
+}
+
+@media (max-width: 412px){
+  .sticky-list{
+    margin: 0 !important;
+  }
+}
+
+/* --GAMING GUIDE-- */
+
+.cont-gamingGuide{
+  background: url("../src/assets/BG/background.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gamingGuidesFonts h1{
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.gamingGuidesFonts h5{
+  color: #FFA800;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.gamingGuidesFonts span{
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@media (max-width:360px){
+  .gamingGuidesFonts{
+    text-align: center;
+  }
+}
+
+.gamingGuidesFonts h2{
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.gamingGuidesFonts li {
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* --Responsible Gaming -- */
+
+.cont-responsibleGaming{
+  background: url("../src/assets/BG/background2.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.responsibleFonts h1 {
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.responsibleFonts h6{
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.responsibleFonts p {
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300
+}
+
+.responsibleFonts li {
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.responsibleFonts h2{
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.responsibleFonts h3 {
+  color: #58c72c;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+@media (max-width:360px){
+  .testing546{
+    padding: 0 !important;
+  }
+}
+
+/* -- HEADER COMPONENT -- */
+
+/* .img-bg{
+  background-image: url("./assets/BG/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.carousel-header-bg{
+  background: linear-gradient(360deg, #BE2227 0.09%, #1E3699 76.65%);
+  /* background-color: transparent !important; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.header-text-format h1{
+  text-align: left !important;
+  color: #FFF;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.header-text-format p {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+.padding-header-text{
+  padding: 0 0 0 4rem !important ;
+}
+
+@media (max-width:577px){
+  /* header */
+  .padding-header-text{
+    text-align: center;
+    padding: 2rem !important;
+  }
+  .header-text-format h1{
+    text-align: center !important;
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
