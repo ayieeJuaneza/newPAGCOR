@@ -16,11 +16,11 @@ function Headers() {
     const testBannersMobArray =[MobBanners1,MobBanners2,MobBanners3]
 
     var headerSettings = {
-        autoplay: false,
+        autoplay: true,
         dots: false,
         infinite: true,
-        speed: 5000,
-        autoplaySpeed: 2000,
+        speed: 3000,
+        autoplaySpeed: 1000,
         slidesToShow: 1,
         slidesToScroll: 1,
         responsive: [

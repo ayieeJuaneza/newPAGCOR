@@ -3,14 +3,14 @@ import AppNavBar from '../components/AppNavBar'
 import { Container, Row, Col } from 'react-bootstrap'
 import ListBar from '../components/ListBar'
 import Footer from '../components/Footer'
-import headerBg from "../assets/header.png"
+import Headers from '../components/Headers'
 
 function Branches() {
   return (
     <div  className='cont-branches'>
         <AppNavBar/>
         <div>
-            <img src={headerBg} alt="" />
+            <Headers/>
         </div>
             <Row>
                 <Col lg={2}>

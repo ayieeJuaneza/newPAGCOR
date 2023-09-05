@@ -1,6 +1,6 @@
 import React from 'react'
 import iconCalendar from "../assets/Google Calendar.png"
-import headerBg from "../assets/header.png"
+import Headers from '../components/Headers'
 import AppNavBar from '../components/AppNavBar'
 import ListBar from '../components/ListBar'
 import { Row, Col } from "react-bootstrap"
@@ -11,7 +11,7 @@ function Events() {
     <div className='cont-events'>
         <AppNavBar/>
         <div>
-            <img src={headerBg} alt="" />
+            <Headers/>
         </div>
             <Row>
                <Col lg={2}>

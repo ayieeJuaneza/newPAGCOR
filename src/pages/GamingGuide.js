@@ -1,5 +1,5 @@
 import React from 'react'
-import headerBg from "../assets/header.png"
+import Headers from '../components/Headers'
 import AppNavBar from '../components/AppNavBar'
 import { Row, Col } from "react-bootstrap"
 import Baccarat from "../assets/GamingGuide/baccarat.png"
@@ -19,8 +19,8 @@ function GamingGuide() {
   return (
     <div className="cont-gamingGuide">
        <AppNavBar />
-        <div>
-            <img src={headerBg} alt="" />
+       <div>
+            <Headers/>
         </div>
         <Row>
             <Col lg={2}>

@@ -4,15 +4,15 @@ import AppNavBar from '../components/AppNavBar';
 import { Row, Col } from "react-bootstrap";
 import ListBar from '../components/ListBar';
 import iconCalendar from "../assets/Google Calendar.png";
-import headerBg from "../assets/header.png"
+import Headers from '../components/Headers'
 import Footer from '../components/Footer';
 
 function Tournaments() {
   return (
     <div className='cont-events'>
     <AppNavBar/>
-        <div>
-            <img src={headerBg} alt="" />
+         <div>
+            <Headers/>
         </div>
         <Row>
             <Col lg={2}>

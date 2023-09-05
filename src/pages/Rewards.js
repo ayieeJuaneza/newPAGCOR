@@ -8,7 +8,7 @@ import ayumi from "../assets/tieUps/ayumi.png";
 import bestWestern from "../assets/tieUps/bestWestern.png";
 import Card1 from "../assets/card1.png";
 import Card2 from "../assets/card2.png";
-import headerBg from "../assets/header.png"
+import Headers from '../components/Headers'
 import Footer from '../components/Footer';
 
 function Rewards() {
@@ -16,7 +16,7 @@ function Rewards() {
     <div className="cont-rewards">
         <AppNavBar />
         <div>
-            <img src={headerBg} alt="" />
+            <Headers/>
         </div>
         <Row>
             <Col lg={2}>
